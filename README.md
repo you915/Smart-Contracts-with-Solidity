@@ -88,6 +88,18 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ![Remix Testing](Images/remix-test.png)
 
+# Result
+
+### Deploy
+![Remix_level_1](Images/level_1.JPG)
+
+### Before
+![Remix_level1_before](Images/level1_before.JPG)
+
+### After
+![Remix_level1_after](Images/level1_after.JPG)
+
+
 ### Level Two: The `TieredProfitSplitter` Contract
 
 In this contract, rather than splitting the profits between associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
@@ -125,6 +137,17 @@ Using the starter code, within the `deposit` function, perform the following:
   * The provided `balance` function can be used as a test to see if the logic you have in the `deposit` function is valid. Since all of the ether should be transferred to employees, this function should always return `0`, since the contract should never store ether itself.
 
   * Note: The 100 wei threshold is due to the way we calculate the points. If we send less than 100 wei, for example, 80 wei, `points` would equal `0` because `80 / 100` equals `0` because the remainder is discarded. We will learn more advanced arbitrary precision division later in the course. In this case, we can disregard the threshold as 100 wei is a significantly smaller value than the ether or Gwei units that are far more commonly used in the real world (most people aren't sending less than a penny's worth of ether).
+
+# Result
+
+### Deploy
+![Remix_level_2](Images/level_2.JPG)
+
+### Before
+![Remix_level2_before](Images/level2_before.JPG)
+
+### After
+![Remix_level2_after](Images/level2_after.JPG)
 
 ### Level Three: The `DeferredEquityPlan` Contract
 
@@ -185,6 +208,14 @@ Using the starter code, perform the following:
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
 
 * Congratulate yourself for building such complex smart contracts in your first week of Solidity! You are learning specialized skills that are highly desired in the blockchain industry!
+
+# Result
+
+### Deploy
+![Remix_level_3](Images/level3_1.JPG)
+
+### Deploy - Fastforward()
+![Remix_level_3_fastforward](Images/level3_fastforward.JPG)
 
 ### Deploy the contracts to a live Testnet
 
