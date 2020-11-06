@@ -88,7 +88,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ![Remix Testing](Images/remix-test.png)
 
-# Result
+# Result - Level 1
 
 ### Deploy
 ![Remix_level_1](Images/level_1.JPG)
@@ -138,7 +138,7 @@ Using the starter code, within the `deposit` function, perform the following:
 
   * Note: The 100 wei threshold is due to the way we calculate the points. If we send less than 100 wei, for example, 80 wei, `points` would equal `0` because `80 / 100` equals `0` because the remainder is discarded. We will learn more advanced arbitrary precision division later in the course. In this case, we can disregard the threshold as 100 wei is a significantly smaller value than the ether or Gwei units that are far more commonly used in the real world (most people aren't sending less than a penny's worth of ether).
 
-# Result
+# Result - Level 2
 
 ### Deploy
 ![Remix_level_2](Images/level_2.JPG)
@@ -209,7 +209,7 @@ Using the starter code, perform the following:
 
 * Congratulate yourself for building such complex smart contracts in your first week of Solidity! You are learning specialized skills that are highly desired in the blockchain industry!
 
-# Result
+# Result - Level 3
 
 ### Deploy
 ![Remix_level_3](Images/level3_1.JPG)
@@ -224,6 +224,19 @@ Once you feel comfortable with your contracts, point MetaMask to the Kovan or Ro
 After switching MetaMask to Kovan, deploy the contracts as before, and copy/keep a note of their deployed addresses. The transactions will also be in your MetaMask history, and on the blockchain permanently to explore later.
 
 ![Remix Deploy](Images/remix-deploy.png)
+
+## Testnet-Transaction in Kovan Network
+
+The testnet is an alternative Bitcoin blockchain can be used for testing. This allows developers/bitcoin testers to experiment without having to use real bitcoins.
+
+### Deploy
+![Deploy_testnet](Images/testnet_before2.JPG)
+
+### Deploy in Remix - Transaction
+![Deploy_testnet](Images/metamask_1.JPG)
+
+### Metamask Transaction Address
+![Metamask](Images/metamask_2.JPG)
 
 ## Resources
 
