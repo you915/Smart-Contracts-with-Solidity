@@ -1,4 +1,4 @@
-# Unit 20 - "Looks like we've made our first contract!"
+# "Looks like we've made our first contract!"
 
 ![contract](https://image.shutterstock.com/z/stock-photo-two-hands-handshake-polygonal-low-poly-hud-illustration-smart-contract-agreement-blockchain-and-1161295627.jpg)
 
@@ -252,13 +252,5 @@ For a more extensive list of awesome Solidity resources, check out [Awesome Soli
 Another tutorial is available at [EthereumDev.io](https://ethereumdev.io/)
 
 If you enjoy building games, here's an excellent tutorial called [CryptoZombies](https://cryptozombies.io/)
-
-## Submission
-
-Create a `README.md` that explains what testnet the contract is on, the motivation for the contract.
-
-Upload this to a Github repository that explains how the contract works, and provide the testnet address for others to be able to send to.
-
-___
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
